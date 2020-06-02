@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Episoma</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Config.js"></script>
+    <script src="Fudge/FudgeCore.js"></script>
+    <script src="Cube.js"></script>
+    <script src="Body.js"></script>
+    <script src="Fragment.js"></script>
+    <script src="Grid.js"></script>
+    <script src="Control.js"></script>
+    <script src="Camera.js"></script>
+    <script src="Audio.js"></script>
+    <script src="Main.js"></script>
+</head>
+
+<body>
+<div id="head">
+    <h1 style="text-align: left;">Episoma</h1>
+    <h1 id="Time">Temps</h1>
+    <h1 id="Score" style="text-align: right;">fait avec FUDGE</h1>
+</div>
+
+<canvas style="background-color: white;"> </canvas>
+
+<div>
+    <span>Translation: Z, Q, S, D, E, X | Rotation: SHIFT + Z, Q, S, D, E, A | Sélectionner : Clic | Caméra : Maintenir, Déplacer, Roulette</span>
+    <span id="CallToAction">RÉPARER SOMA !</span>
+</div>
+
+<div>
+    <div id="PointsAnimation"></div>
+    <div id="Calculation"></div>
+
+    <div id="Menu">
+        <h1>
+            1. cliquez pour voir l'assemblage <br />
+            2. appuyez sur F11 pour le plein écran <br />
+            3. appuyez sur ESPACE pour exploser !
+        </h1>
+    </div>
+    <div id="Over">
+        <h1>
+            PARTIE TERMINÉE
+        </h1>
+        appuyez sur F5 pour redémarrer
+    </div>
+</div>
+</body>
+
+</html>
